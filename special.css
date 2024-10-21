@@ -1,0 +1,154 @@
+/* General body styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+/* Section headings */
+h2 {
+    font-size: 2.5rem;
+    color: #f7b731;
+    margin-bottom: 20px;
+}
+
+/* Highlight Section Styling */
+.highlight-section {
+    padding: 50px 20px;
+    background-color: #1e1e1e;
+}
+
+.highlight-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #333333;
+    color: #f7b731;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    flex: 1;
+    min-width: 150px;
+    max-width: 250px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Birthday Wishes Gallery Styling */
+.wishes-gallery {
+    padding: 50px 20px;
+    background-color: #181818;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.gallery-item {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Fun Interactive Section Styling */
+.interactive-section {
+    padding: 50px 20px;
+    background-color: #1e1e1e;
+}
+
+.quiz-card {
+    background-color: #333333;
+    padding: 20px;
+    border-radius: 10px;
+    color: #ffffff;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.quiz-card button {
+    background-color: #f7b731;
+    color: #121212;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.quiz-card button:hover {
+    background-color: #ffa500;
+}
+
+/* Gift Section Styling */
+.gift-section {
+    padding: 50px 20px;
+    background-color: #181818;
+}
+
+.wishlist-button {
+    background-color: #f7b731;
+    color: #121212;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.wishlist-button:hover {
+    background-color: #ffa500;
+}
+
+/* Photo Gallery Styling */
+.photo-gallery {
+    padding: 50px 20px;
+    background-color: #1e1e1e;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.photo-grid img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer Styling */
+.footer {
+    padding: 20px;
+    background-color: #181818;
+}
+
+.footer p {
+    margin: 10px 0;
+}
+
+.social-links a {
+    color: #f7b731;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #ffa500;
+}
